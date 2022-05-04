@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    width: 100%;
+    margin: 0 auto;
+
+    .containerLogin {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        background-color: rgb(58, 58, 58);
+
+        .wrapLogin {
+            width: 500px;
+            background-color: rgb(99, 99, 99);
+            border-radius: 30px;
+            overflow: hidden;
+            padding: 77px 55px 33px 55px;
+            box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+            .loginForm{
+                width: 100%;
+
+                .loginFormTitle {
+                    display: block;
+                    font-size: 30px;
+                    color: azure;
+                    line-height: 1.2;
+                    text-align: center;
+    
+                    img {
+                        width: 200px;
+                    }
+                }
+
+                .wrapInput {
+                    width: 100%;
+                    position: relative;
+                    border-bottom: 2px solid #adadad;
+                    margin-bottom: 37px;
+
+                    .input {
+                        font-size: 15px;
+                        color: white;
+                        line-height: 1.2;
+                        border: none;
+                        display: flex;
+                        width: 100%;
+                        height: 45px;
+                        background-color: transparent;
+                        padding: 0 5px;
+
+                    }
+                }
+
+                .containerBtn {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding-bottom: 20px;
+
+                    .loginBtn {
+                        font-size: 15px;
+                        border: none;
+                        border-radius: 10px;
+                        color: #fff;
+                        line-height: 1.2;
+                        display: flex;
+                        text-transform: uppercase;
+                        align-items: center;
+                        justify-content: center;
+                        width: 200px;
+                        height: 50px;
+                        color: black;
+                        box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.5);
+                        cursor: pointer;
+                    }
+                }
+
+                .cont {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 20px;
+
+                    .txt1 {
+                        font-size: 15px;
+                        color: white;
+                    }
+
+                    .txt2 {
+                        font-size: 15px;
+                        color: lightblue;
+                        text-decoration: none;
+                        margin-left: 5px;
+                    }
+                }
+            }   
+        }
+    }
+}
